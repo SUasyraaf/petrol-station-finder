@@ -182,7 +182,7 @@ class _AddPetrolStationState extends State<AddPetrolStation> {
         ),
       ),
     );
-  }
+  } ///test najo
   writeData() {
     final fb = FirebaseDatabase.instance.reference().child("Petrol Station Location");
 
